@@ -1,0 +1,26 @@
+{
+  "author": "Kado <support@kado.org>",
+  "name": "kado-demo",
+  "description": "Kado Demo Application",
+  "version": "1.0.0",
+  "homepage": "https://kado.org",
+  "license": "LGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KadoOrg/kado-demo.git"
+  },
+  "keywords": [
+    "kado",
+    "demo"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "./app.js",
+  "scripts": {
+    "start": "nodemon --config nodemon.json app.js"
+  },
+  "dependencies": {
+    "kado": "^3.4.0"
+  }
+}
